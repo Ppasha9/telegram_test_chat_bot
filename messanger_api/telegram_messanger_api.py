@@ -4,7 +4,7 @@ from config.config import ConfigYamlParser
 from state.bot_state import BotState
 
 # для простоты захардкодим путь до конфиг файла
-_CONFIG_FILE_NAME = "./config/bot.y
+_CONFIG_FILE_NAME = "./config/bot.yaml"
 _config = ConfigYamlParser(config_file_name=_CONFIG_FILE_NAME)
 _bot_state = BotState()
 _bot = TeleBot(_config.get_bot_token())
