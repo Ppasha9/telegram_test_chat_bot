@@ -1,0 +1,7 @@
+bot:
+  settings:
+    token: ""
+  chat:
+    products: ["Пицца", "Поке"]
+    products_sizes: ["Маленький", "Большой"]
+    payment_method: ["Наличкой", "Картой"]
